@@ -5,7 +5,7 @@ package chapter02.section02.lesson28;
  * @datetime: 2020/5/24 1:56 上午
  * @desc: 锁对象的改变
  */
-public class Run {
+public class Run1 {
     public static void main(String[] args) {
         final Service service = new Service();
         Thread threadA = new Thread(new Runnable() {
