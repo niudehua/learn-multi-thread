@@ -14,7 +14,7 @@ public class MyList {
     private List list = new ArrayList();
 
     public void add() {
-        list.add("高洪岩");
+        list.add("NiuDeHua");
     }
 
     public int size() {
