@@ -3,7 +3,7 @@ package chapter04.section01.lesson8;
 /**
  * @author: deng
  * @datetime: 2020/5/30 4:57 下午
- * @desc:
+ * @desc: 实现生产者/消费者模式 ： 一对一交叉打印
  */
 public class Run {
     public static void main(String[] args) {
