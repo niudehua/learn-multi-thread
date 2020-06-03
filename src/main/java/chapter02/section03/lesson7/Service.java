@@ -6,7 +6,7 @@ package chapter02.section03.lesson7;
  * @desc:
  */
 public class Service {
-     private boolean isContinue = true;
+    private boolean isContinue = true;
 
     public void runMethod() {
         while (isContinue) {

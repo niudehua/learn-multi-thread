@@ -7,7 +7,7 @@ import java.util.TimerTask;
 /**
  * @author: deng
  * @datetime: 2020/6/2 12:17 下午
- * @desc: schedule(MyTask,delay): 将指定的任务安排在指定的延迟之后执行。
+ * @desc: schedule(MyTask, delay): 将指定的任务安排在指定的延迟之后执行。
  */
 public class Run {
     public static void main(String[] args) {

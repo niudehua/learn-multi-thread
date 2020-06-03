@@ -7,7 +7,8 @@ package chapter02.section02.lesson9;
  */
 public class Service {
     String synString = new String();
-    public void a(){
+
+    public void a() {
         synchronized (synString) {
             try {
                 System.out.println("a() begin");

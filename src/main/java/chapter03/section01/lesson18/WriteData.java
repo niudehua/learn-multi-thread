@@ -1,7 +1,6 @@
 package chapter03.section01.lesson18;
 
 import java.io.IOException;
-import java.io.PipedOutputStream;
 import java.io.PipedWriter;
 
 /**

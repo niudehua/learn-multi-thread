@@ -6,7 +6,7 @@ package chapter02.section01.lesson1;
  * @desc:
  */
 public class HasSelfPrivateNum {
-      public void addI(String username) {
+    public void addI(String username) {
         try {
             int num = 0;
             if ("a".equals(username)) {

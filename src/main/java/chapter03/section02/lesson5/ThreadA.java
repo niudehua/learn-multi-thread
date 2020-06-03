@@ -16,7 +16,7 @@ public class ThreadA extends Thread {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName()+" a run");
+        System.out.println(Thread.currentThread().getName() + " a run");
         try {
             synchronized (b) {
                 b.start();

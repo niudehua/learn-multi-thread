@@ -11,7 +11,7 @@ public class ThreadB extends Thread {
         try {
             for (int i = 0; i < 100; i++) {
                 Tools.threadLocal.set("ThreadB" + (i + 1));
-                System.out.println("ThreadB get Value = "+ Tools.threadLocal.get());
+                System.out.println("ThreadB get Value = " + Tools.threadLocal.get());
                 Thread.sleep(2000);
             }
         } catch (InterruptedException exception) {

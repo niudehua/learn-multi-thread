@@ -5,7 +5,7 @@ package chapter02.section02.lesson10;
  * @datetime: 2020/5/22 9:45 上午
  * @desc:
  */
-public class ThreadA extends Thread{
+public class ThreadA extends Thread {
     private MyList myList;
 
     public ThreadA(MyList myList) {

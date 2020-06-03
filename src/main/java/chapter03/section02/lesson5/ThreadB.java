@@ -10,7 +10,7 @@ public class ThreadB extends Thread {
     @Override
     public void run() {
 
-        System.out.println(Thread.currentThread().getName()+" b run()");
+        System.out.println(Thread.currentThread().getName() + " b run()");
         try {
             System.out.println("   b run begin timer="
                     + System.currentTimeMillis());

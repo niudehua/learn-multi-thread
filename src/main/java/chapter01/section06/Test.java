@@ -7,7 +7,7 @@ package chapter01.section06;
  */
 public class Test {
     public static void main(String[] args) {
-        System.out.println("Thread.currentThread().getName():"+Thread.currentThread().getName());
-        System.out.println("Thread.currentThread().getId():"+Thread.currentThread().getId());
+        System.out.println("Thread.currentThread().getName():" + Thread.currentThread().getName());
+        System.out.println("Thread.currentThread().getId():" + Thread.currentThread().getId());
     }
 }

@@ -19,7 +19,7 @@ public class Run6 {
             i++;
             Timer timer = new Timer();
             MyTask myTask = new MyTask();
-            timer.schedule(myTask, Date.from(LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant()),10000);
+            timer.schedule(myTask, Date.from(LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant()), 10000);
             timer.cancel();
         }
     }

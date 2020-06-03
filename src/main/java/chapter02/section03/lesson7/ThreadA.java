@@ -5,7 +5,7 @@ package chapter02.section03.lesson7;
  * @datetime: 2020/5/24 11:28 下午
  * @desc:
  */
-public class ThreadA extends Thread{
+public class ThreadA extends Thread {
     private Service service;
 
     public ThreadA(Service service) {

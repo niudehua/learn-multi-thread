@@ -9,13 +9,14 @@ public class LoginService {
     private static String usernameref;
     private static String passwordref;
 
-   synchronized public static void doPost(String username, String password) {
+    synchronized public static void doPost(String username, String password) {
         usernameref = username;
         try {
             if (username.equals("a")) {
-                Thread.sleep(5000);}
-                passwordref = password;
-                System.out.println("username=" + usernameref + "\npassword=" + password);
+                Thread.sleep(5000);
+            }
+            passwordref = password;
+            System.out.println("username=" + usernameref + "\npassword=" + password);
 
         } catch (InterruptedException exception) {
             exception.printStackTrace();

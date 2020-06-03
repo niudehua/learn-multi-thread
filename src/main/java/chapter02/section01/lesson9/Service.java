@@ -13,7 +13,7 @@ public class Service {
             while (i == 1) {
                 if (("" + Math.random()).substring(0, 8).equals("0.123456")) {
                     System.out.println("ThreadName:" + Thread.currentThread().getName() + "\t run exceptionTime:" + System.currentTimeMillis());
-                     Integer.parseInt("a");
+                    Integer.parseInt("a");
                 }
             }
         } else {

@@ -1,7 +1,5 @@
 package chapter02.section02.lesson23;
 
-import javax.jws.soap.SOAPBinding;
-
 /**
  * @author: deng
  * @datetime: 2020/5/24 12:06 上午

@@ -16,7 +16,7 @@ public class MyThread extends Thread {
             Thread.sleep(2000);
             System.out.println("run end");
         } catch (InterruptedException exception) {
-            System.out.println("MyThread catch  Thread.interrupted()："+Thread.interrupted());
+            System.out.println("MyThread catch  Thread.interrupted()：" + Thread.interrupted());
             exception.printStackTrace();
         }
     }

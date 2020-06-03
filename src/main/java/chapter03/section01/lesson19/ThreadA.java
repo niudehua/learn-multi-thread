@@ -5,7 +5,7 @@ package chapter03.section01.lesson19;
  * @datetime: 2020/5/29 5:17 下午
  * @desc:
  */
-public class ThreadA extends Thread{
+public class ThreadA extends Thread {
     private DBTools dbTools;
 
     public ThreadA(DBTools dbTools) {

@@ -16,7 +16,7 @@ public class ThreadC extends Thread {
 
     @Override
     public void run() {
-        System.out.println(Thread.currentThread().getName()+"  c run()");
+        System.out.println(Thread.currentThread().getName() + "  c run()");
         threadB.bService();
     }
 

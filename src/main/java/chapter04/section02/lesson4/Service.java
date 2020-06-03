@@ -24,18 +24,17 @@ public class Service {
     }
 
     public void write() {
-            try {
-                lock.writeLock().lock();
-                System.out.println("获得写锁" + Thread.currentThread().getName()
-                        + " " + System.currentTimeMillis());
-                Thread.sleep(10000);
-            } catch (InterruptedException exception) {
-                exception.printStackTrace();
-            } finally {
-                lock.writeLock().unlock();
-            }
+        try {
+            lock.writeLock().lock();
+            System.out.println("获得写锁" + Thread.currentThread().getName()
+                    + " " + System.currentTimeMillis());
+            Thread.sleep(10000);
+        } catch (InterruptedException exception) {
+            exception.printStackTrace();
+        } finally {
+            lock.writeLock().unlock();
+        }
     }
-
 
 
 }

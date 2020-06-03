@@ -7,7 +7,7 @@ package chapter02.section01.lesson10;
  */
 public class Sub extends Main {
     @Override
-     public void testMethod() {
+    public void testMethod() {
         try {
             System.out.println("sub-ThreadName:" + Thread.currentThread().getName() + "\tcurrentTime:" + System.currentTimeMillis());
             Thread.sleep(5000);

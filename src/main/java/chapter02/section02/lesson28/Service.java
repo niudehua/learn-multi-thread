@@ -10,14 +10,14 @@ public class Service {
 
     public void testMethod() {
         synchronized (lock) {
-            System.out.println(Thread.currentThread().getName()+" begin time:"+System.currentTimeMillis());
+            System.out.println(Thread.currentThread().getName() + " begin time:" + System.currentTimeMillis());
             lock = "456";
             try {
                 Thread.sleep(3000);
             } catch (InterruptedException exception) {
                 exception.printStackTrace();
             }
-            System.out.println(Thread.currentThread().getName()+" end time:"+System.currentTimeMillis());
+            System.out.println(Thread.currentThread().getName() + " end time:" + System.currentTimeMillis());
 
         }
     }

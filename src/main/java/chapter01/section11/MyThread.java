@@ -8,6 +8,7 @@ package chapter01.section11;
  */
 public class MyThread extends Thread {
     private int i = 0;
+
     @Override
     public void run() {
         try {

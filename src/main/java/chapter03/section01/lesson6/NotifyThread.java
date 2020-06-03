@@ -5,7 +5,7 @@ package chapter03.section01.lesson6;
  * @datetime: 2020/5/25 3:42 下午
  * @desc:
  */
-public class NotifyThread extends Thread{
+public class NotifyThread extends Thread {
     private Object lock;
 
     public NotifyThread(Object lock) {

@@ -6,7 +6,7 @@ package chapter01.section02.lesson4;
  * @desc:
  */
 public class MyThread extends Thread {
-   int count = 5;
+    int count = 5;
 
     public MyThread(String name) {
         currentThread().setName(name);

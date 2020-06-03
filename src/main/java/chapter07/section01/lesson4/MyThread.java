@@ -5,7 +5,7 @@ package chapter07.section01.lesson4;
  * @datetime: 2020/6/2 11:39 下午
  * @desc:
  */
-public class MyThread extends Thread{
+public class MyThread extends Thread {
     @Override
     public void run() {
         try {

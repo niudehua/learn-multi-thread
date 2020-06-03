@@ -17,10 +17,10 @@ public class Run1 {
 
     public static void main(String[] args) {
         MyTask1 myTask1 = new MyTask1();
-        System.out.println("当前时间："+LocalDateTime.now());
+        System.out.println("当前时间：" + LocalDateTime.now());
         Date planToDoTime = Date.from(LocalDateTime.now().plusSeconds(10).atZone(ZoneId.systemDefault()).toInstant());
-        System.out.println("计划开始执行时间："+planToDoTime);
-        timer.schedule(myTask1,planToDoTime,3000);
+        System.out.println("计划开始执行时间：" + planToDoTime);
+        timer.schedule(myTask1, planToDoTime, 3000);
     }
 
     static public class MyTask1 extends TimerTask {

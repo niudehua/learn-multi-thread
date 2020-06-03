@@ -17,7 +17,7 @@ public class Run {
             public void run() {
                 inner1.method1(inner2);
             }
-        },"a");
+        }, "a");
         Thread threadB = new Thread(new Runnable() {
             @Override
             public void run() {
