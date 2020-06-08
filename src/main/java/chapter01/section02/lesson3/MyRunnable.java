@@ -6,6 +6,7 @@ package chapter01.section02.lesson3;
  * @desc: 通过实现Runnable接口创建线程
  */
 public class MyRunnable implements Runnable {
+    @Override
     public void run() {
         System.out.println("通过实现Runnable接口创建线程");
     }
